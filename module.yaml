@@ -1,0 +1,16 @@
+machines:
+  MachineA:
+    alg:
+      - sub
+      - add
+  
+  MachineB:
+     alg:
+      - mul
+      - div
+  
+  MachineC:
+     alg:
+      - sub
+      - add
+      - comp

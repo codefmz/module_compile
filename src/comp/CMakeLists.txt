@@ -1,0 +1,5 @@
+file(GLOB SRC "src/*.cpp" "$src/*.h")
+add_library(comp OBJECT ${SRC})
+target_link_libraries(comp PUBLIC add sub)
+target_include_directories(comp PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/include/ DESTINATION include FILES_MATCHING PATTERN "*.h")
