@@ -11,6 +11,6 @@ machines:
   
   MachineC:
      alg:
+      - comp
       - sub
       - add
-      - comp

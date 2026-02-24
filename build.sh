@@ -12,6 +12,7 @@ printUsage() {
     echo "  -t      target eg: alg mc"
 }
 
+
 #--name "$0": 用于在错误时打印出脚本信息
 # -- "$@ 结束标志， 代表传入脚本的 所有参数，保留每个参数的边界
 ARGS=$(getopt -o t:p:nd --name "$0" -- "$@")
